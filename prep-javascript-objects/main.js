@@ -3,8 +3,8 @@ var person = {
   lastName: 'Yoo',
   hobby: 'Game'
 };
-console.log("The Person's name is: ", person.firstName);
-console.log(person.lastName);
+var fullName = person.firstName + ' ' + person.lastName;
+console.log(fullName);
 console.log(person.hobby);
 person.job = 'production';
 console.log("The person's current job is: ", person.job);

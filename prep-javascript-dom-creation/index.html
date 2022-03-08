@@ -13,6 +13,13 @@
   </div>
   <script>
     // Your code here
+    const $container = document.querySelector('#container');
+    console.log($container);
+    const $heading = document.createElement('h1');
+    console.log($heading);
+    const textContent = document.createTextNode('Hello World!');
+    $heading.appendChild(textContent);
+    $container.appendChild($heading);
   </script>
 </body>
 
